@@ -1,18 +1,27 @@
-# Material design icons
+## About this fork
+
+This fork of the official Google [material-design-icons](https://github.com/google/material-design-icons)
+project just renames the iOS imagesets of all black icons.
+
+**So that the resource names matches between Android and iOS!**
+
+It keeps the resource name scheme for Android:
+
+* [google/material-design-icons/.../action/drawable-mdpi](https://github.com/google/material-design-icons/tree/master/action/drawable-mdpi)
+* [jerolimov/material-design-icons/.../action/drawable-mdpi](https://github.com/jerolimov/material-design-icons/tree/master/action/drawable-mdpi)
+
+But it changes the resource names for iOS: All icons without color suffix
+(which are suffixed with `_black` on Android) was renamed from
+`ic_abc_xyz.imageset` to `ic_abc_xyz_black.imageset`:
+
+* [google/material-design-icons/.../action/ios](https://github.com/google/material-design-icons/tree/master/action/ios)
+* [jerolimov/material-design-icons/.../action/ios](https://github.com/jerolimov/material-design-icons/tree/master/action/ios)
+
+See [rename_files.sh](https://github.com/jerolimov/material-design-icons/blob/master/rename_files.sh) for more details.
+
+# About Material design icons
 
 Material design icons are the official [icon set](http://www.google.com/design/spec/style/icons.html#icons-system-icons) from Google that are designed under the [material design guidelines](http://www.google.com/design/spec).
-
-## Getting Started
-
-Read the [developer guide](http://google.github.io/material-design-icons/) on how to use the material design icons in your project.
-
-## Using sprite sheets
-
-In `css-sprite` and `svg-sprite` are pre-generated sprite sheets. Instructions for using them are in the [sprites documentation](https://github.com/google/material-design-icons/tree/master/sprites).
-
-## Polymer icons
-
-If you wish to use the icon set with Polymer, we recommend consuming them via the [`<iron-icons>`](https://github.com/polymerelements/iron-icons) element ([`<core-icons>`](https://github.com/Polymer/core-icons) in v0.5).
 
 ## License
 
