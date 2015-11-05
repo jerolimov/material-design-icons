@@ -12,7 +12,8 @@ It keeps the resource name scheme for Android:
 
 But it changes the resource names for iOS: All icons without color suffix
 (which are suffixed with `_black` on Android) was renamed from
-`ic_abc_xyz.imageset` to `ic_abc_xyz_black.imageset`:
+`ic_abc_xyz.imageset` to `ic_abc_xyz_black_24dp.imageset`,
+`ic_abc_xyz_white_18pt.imageset` to `ic_abc_xyz_white_18dp.imageset`, ...
 
 * [google/material-design-icons/.../action/ios](https://github.com/google/material-design-icons/tree/master/action/ios)
 * [jerolimov/material-design-icons/.../action/ios](https://github.com/jerolimov/material-design-icons/tree/master/action/ios)

@@ -10,7 +10,7 @@ for folder in action alert av communication content device editor file hardware 
 
         echo "  Check imageset $wrong_imageset"
 
-        right_imageset=$(echo "$wrong_imageset" | sed 's/\(_[0-9][0-9]pt\)/_black\1/g;s/$/_black_24pt/g;s/white_black/white/g;s/red_black/red/g;s/amber_black/amber/g;s/black_black/black/g;s/pt_black_24pt$/pt/g')
+        right_imageset=$(echo "$wrong_imageset" | sed 's/\(_[0-9][0-9]pt\)/_black\1/g;s/$/_black_24pt/g;s/white_black/white/g;s/red_black/red/g;s/amber_black/amber/g;s/black_black/black/g;s/pt_black_24pt$/pt/g;s/pt$/dp/g')
         right_imageset_dir="$folder/ios/$right_imageset.imageset"
 
         # If we have a no black dir but a white dir we create them from the current file
