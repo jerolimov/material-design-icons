@@ -1,11 +1,10 @@
 ## About this fork
 
 This fork of the official Google [material-design-icons](https://github.com/google/material-design-icons)
-project just renames the iOS imagesets of all black icons.
+project just renames the iOS imagesets. They now have similar names to their
+Android versions.
 
-**So that the resource names matches between Android and iOS!**
-
-It keeps the resource name scheme for Android:
+The resource scheme of Android wasn't changed:
 
 * [google/material-design-icons/.../action/drawable-mdpi](https://github.com/google/material-design-icons/tree/master/action/drawable-mdpi)
 * [jerolimov/material-design-icons/.../action/drawable-mdpi](https://github.com/jerolimov/material-design-icons/tree/master/action/drawable-mdpi)
